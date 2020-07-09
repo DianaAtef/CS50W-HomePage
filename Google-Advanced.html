@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Search</title>
+    <link rel="stylesheet" href="google.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+</head>
+
+
+<body>
+
+    <nav class="justify-content-end navbar navbar-expand-sm bg-light navbar-light">
+        <ul class="nav  d-flex bd-highlight mb-1">
+            <li class="nav-item ml-auto p-2">
+                <a class="nav-link" href="Google-search.html">HomePage</a>
+            </li>
+        </ul>
+    </nav>
+
+
+
+    <h5 style="margin:20px">Advanced Search</h5>
+
+    <h6 style="margin:20px">Find pages with...</h6>
+
+    <form action="https://google.com/search">
+        <div class="advanced-container">
+            <div class=" box1"><label for="all_words">all these words:</label></div>
+            <div class="input1"><input type="text" id="all_words" name="as_q"></div>
+
+
+
+            <div class="box2"><label for="exact">this exact word or phrase:</label></div>
+            <div class="input2"><input type="text" id="exact" name="as_epq"></div>
+
+
+            <div class="box3"><label for="any">any of these words:</label></div>
+            <div class="input3"><input type="text" id="any" name="as_oq"></div>
+
+
+            <div class="box4"><label for="any">none of these words:</label></div>
+            <div class="input4"><input type="text" id="none" name="as_eq"></div>
+
+        </div>
+
+        <div><label for="none"></label></div>
+        <div class=button><input type="submit" class="btn btn-primary" value="Advanced Search"></div>
+
+
+
+    </form>
+
+
+
+
+</body></html>
